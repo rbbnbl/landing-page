@@ -6,11 +6,14 @@ li {
 
 body {
     margin: 0;
-    padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
+}
+
+.header, .section-one {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 h1 {
@@ -43,12 +46,14 @@ h4 {
     justify-content: space-between;
     color: #f9faf8;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
+    background-color: #1f2937;
 }
+
 .menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 ul {
@@ -83,4 +88,40 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 5px;
+}
+
+.section-one {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    max-width: fit-content;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(89, 0, 255);
 }
