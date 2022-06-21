@@ -36,7 +36,20 @@ h3 {
 
 h4 {
     font-size: 10px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h5 {
     font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+    margin: 0;
+
+}
+
+h6 {
+    font-size: 15px;
     margin: 0;
 }
 
@@ -64,8 +77,7 @@ ul {
 .hero {
     display: flex;
     align-items: center;
-    gap: 80px;
-}
+    gap: 80px}
 
 .hero-right {
     display: flex;
@@ -124,4 +136,46 @@ button {
     width: 100px;
     border-radius: 10px;
     border: 2px solid rgb(89, 0, 255);
+}
+
+.section-two {
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote {
+    text-align: right;
+}
+
+.section-three {
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+}
+
+.cta {
+    color: #f9faf8;
+    padding: 30px 50px;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.cta-right button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.footer {
+    text-align: center;
+    color: #f9faf8;
+    padding: 30px;
+    background-color: #1f2937;
 }
